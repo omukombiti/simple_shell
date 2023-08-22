@@ -11,7 +11,7 @@
 
 #define BUFFER 1024
 #define TRUE 1
-#define PROMPT "SHELL/ "
+#define PROMPT "$ "
 /* error strings */
 #define ERR_MALLOC "Unable to alocate malloc space\n"
 #define ERR_FORK "fork error..\n"

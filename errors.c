@@ -11,11 +11,11 @@ void errors(int error)
 	{
 	case 1: 
 		write(STDERR_FILENO, ERR_FORK, _strlen(ERR_FORK));
-		perror("Error detected");
+		perror("this is an Error try again");
 		break;
 
 	case 2: 
-		perror("Error dected");
+		perror("Error dected please exit");
 		break;
 
 	case 3: /* writes malloc error to stderr */
